@@ -3,6 +3,7 @@
   width: 64px;
   margin: 4px auto;
 
+
   & button {
     width: 32px;
     height: 32px;
@@ -14,6 +15,7 @@
     z-index: 1;
     top: 50%;
     transform: translateY(-50%);
+    
 
     animation: slide-out 0.2s;
   }
@@ -31,6 +33,7 @@
     border-radius: 999px;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
+    
   }
 }
 

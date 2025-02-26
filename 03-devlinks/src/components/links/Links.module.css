@@ -1,16 +1,18 @@
+
+
 li a {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 16px 24px;
-
+  margin-top: 10px;
   border: 1px solid var(--stroke-color);
   border-radius: 8px;
   background: var(--surface-color);
 
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-
+  
   text-decoration: none;
   font-weight: bold;
 }
@@ -19,4 +21,10 @@ li a {
 li a:hover {
   background: var(--surface-color-hover);
   border: 1px solid var(--text-color);
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;  
+  padding: 24px;
+  
 }
