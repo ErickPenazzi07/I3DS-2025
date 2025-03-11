@@ -23,7 +23,8 @@ const App = () => {
     <div id="App" className={isLight && "light"}>
       <Perfil fotoPerfil={isLight ? fotoLight : fotoDark}>@DevErick</Perfil>
       <Switch troca={troca} islight={isLight}/>
-<div id="container">
+      
+      <div id="container">
       <ul>
         <Links link={"https://www.google.com/"}>Google</Links>
         <Links link={"https://www.instagram.com/"}>Instagram</Links>
@@ -31,6 +32,7 @@ const App = () => {
         <Links link={"https://br.linkedin.com/"}>Projetos</Links>
       </ul>
       </div>
+
       <div id="socialLinks">
         <SocialLinks link={"https://www.google.com/"} icon={"logo-github"} />
         <SocialLinks link={"https://www.instagram.com/"} icon={"logo-instagram"} />
