@@ -1,0 +1,15 @@
+.titulo {
+  margin-top: 60px;
+  font-size: 3.2em;
+}
+
+.cartao {
+  width: 350px;
+  background-color: blue;
+  border-radius: 5%;
+}
+
+.painel {
+  display: flex;
+  justify-content: space-between;
+}

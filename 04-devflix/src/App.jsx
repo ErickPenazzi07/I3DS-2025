@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import Footer from "../components/footer/Footer";
 import MovieCards from "../components/MovieCards";
+import logo from "./assets//devflix.png";
+import lupa from "./assets/search.svg"
 import "./App.css";
 
 const App = () => {
@@ -28,7 +30,7 @@ const App = () => {
   };
   return (
     <div id="app">
-      <img className="logo" src={"https://placehold.co/200x200"} alt="logo" />
+      <img className="logo" src={logo} alt="logo" />
 
       <div className="search">
         <input
@@ -37,7 +39,7 @@ const App = () => {
           placeholder="Pesquise por filmes..."
           onChange={(e) => setSearch(e.target.value)}
         />
-        <img onClick={() => searchMovies(search)} src={"https://placehold.co/20x20"} alt="Pesquisar" />
+        <img onClick={() => searchMovies(search)} src={lupa} alt="Pesquisar" />
       </div>
 
     {movies?.length > 0 ? (

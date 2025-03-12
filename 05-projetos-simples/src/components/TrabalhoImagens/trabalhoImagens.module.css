@@ -1,0 +1,10 @@
+.trabalhoImagens{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: blue;
+}
+
+
+.tituloTrabalho{
+    margin-top: 50px;
+}
