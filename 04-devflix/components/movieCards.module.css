@@ -50,17 +50,17 @@
     font-size: 13px;
     letter-spacing: 2px;
     font-weight: bold;
-    color: #f0f0f0;
+    color: #ffffff;
   }
   
- h3 {
+   h3 {
     margin-top: 5px;
     color: #f9d3b4;
   }
   
   .movie:hover div:nth-of-type(2) {
     height: 100%;
-    opacity: 0.3;
+    opacity: 0.3; 
   }
   
   .movie:hover div:nth-of-type(3) {
