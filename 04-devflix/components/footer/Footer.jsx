@@ -1,7 +1,14 @@
-import styles from "./footer.module.css";
+import styles from "./Footer.module.css";
 
-const Footer = (footer) => {
-  return <footer className={styles.footer}>Feito com ❤️ por {footer.DevName}</footer>;
+const Footer = (props) => {
+  return (
+    <footer>
+      <p>
+        Feito com ❤️ por
+        <a href={props.devLink}>{props.devName}</a>
+      </p>
+    </footer>
+  );
 };
 
-export default Footer;
+export default Footer;  
